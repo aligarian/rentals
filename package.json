@@ -1,0 +1,19 @@
+{
+  "name": "rentals",
+  "version": "1.0.0",
+  "description": "Rental website-MEAN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aligarian/rentals.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aligarian/rentals/issues"
+  },
+  "homepage": "https://github.com/aligarian/rentals#readme"
+}
