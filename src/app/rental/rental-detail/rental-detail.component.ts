@@ -9,7 +9,7 @@ import { Rental } from "../shared/rental.model";
   styleUrls: ['./rental-detail.component.scss']
 })
 export class RentalDetailComponent implements OnInit {
-  rental:Rental={};
+  rental:any={};
   constructor(private route: ActivatedRoute, private rentalservice: RentalService) { }
 
   ngOnInit() {
