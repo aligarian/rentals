@@ -9,8 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { TempComponent } from './temp/temp.component';
 
 import { RentalModule } from './rental/rental-module';
-import { RentalComponent } from './rental/rental.component';
-import { RentalDetailComponent } from './rental/rental-detail/rental-detail.component';
+
 const routes:Routes = [
   {path:'',redirectTo:'/rentals',pathMatch:'full'},
   {path:'temp',component:TempComponent}
@@ -21,7 +20,7 @@ const routes:Routes = [
     AppComponent,
     HeaderComponent,
     TempComponent,
-    RentalDetailComponent
+    
   ],
   imports: [
     RouterModule.forRoot(routes),
